@@ -1,4 +1,4 @@
-**PBMC 10k Single-Cell RNA-seq Analysis (Seurat)**
+# **PBMC 10k Single-Cell RNA-seq Analysis (Seurat)**
 
 A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 10k dataset using Seurat in R, covering quality control, normalization, clustering, and cell type annotation.
 
@@ -71,19 +71,29 @@ project/
 
 These plots summarize key steps of the Seurat workflow, including quality control, dimensionality reduction, clustering, and biological interpretation.
 
-* Quality Control
+* **Quality Control**
+
 ![QC Violin Plot](images/QC_VlnPlot.png)
+
 ![nCount vs nFeature](images/nCount_vs_nFeature.png)
+
 ![nCount vs percent MT](images/nCount_vs_percentMT.png)
 
-* Dimensionality Reduction
+
+* **Dimensionality Reduction**
+
 ![Elbow Plot](images/Elbow_plot.png)
 
-* Clustering
+
+* **Clustering**
+
 ![UMAP Clusters](images/UMAP_Clusters.png)
+
 ![Annotated UMAP](images/umap_annotated.png)
 
-**  Top Genes (PC1–PC10 Heatmaps)**
+
+* **Top Genes (PC1–PC10 Heatmaps)**
+
 Full heatmaps across principal components are available here:  
 [View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
 
@@ -104,8 +114,10 @@ library(dplyr)
 
 ```
 
+---
 * R version: 4.3+
 * Seurat version: 5.x
+
 
 
 ## Author
