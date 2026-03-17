@@ -6,7 +6,6 @@ A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 1
 
 ```bash
 project/
-├── README.md
 ├── single_cell_seurat.R
 ├── images/
 │   ├── QC_VlnPlot.png
