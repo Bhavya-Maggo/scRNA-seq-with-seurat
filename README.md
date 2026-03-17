@@ -4,6 +4,7 @@ A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 1
 
 ## Project Structure
 
+```bash
 project/
 ├── README.md
 ├── single_cell_seurat.R
@@ -21,6 +22,7 @@ project/
 ├── data/
 │   └── filtered_feature_bc_matrix/
 
+```
 
 ## Dataset
 
