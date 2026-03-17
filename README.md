@@ -72,11 +72,18 @@ project/
 These plots summarize key steps of the Seurat workflow, including quality control, dimensionality reduction, clustering, and biological interpretation.
 
 * Quality Control
+![QC Violin Plot](images/QC_VlnPlot.png)
+![nCount vs nFeature](images/nCount_vs_nFeature.png)
+![nCount vs percent MT](images/nCount_vs_percentMT.png)
+
 * Dimensionality Reduction
+![Elbow Plot](images/Elbow_plot.png)
+
 * Clustering
-* Cell Type Annotation
-* Marker Gene Expression
-* Top Genes (PC1–PC10 Heatmaps)
+![UMAP Clusters](images/UMAP_Clusters.png)
+![Annotated UMAP](images/umap_annotated.png)
+
+**  Top Genes (PC1–PC10 Heatmaps)**
 Full heatmaps across principal components are available here:  
 [View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
 
