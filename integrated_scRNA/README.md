@@ -154,7 +154,7 @@ These plots summarize key steps of the Seurat workflow, including quality contro
 
 Full DEG results:
 - [All DEGs](results/all_DEGs_COVID_vs_Healthy.csv)
-- [Significant DEGs](significant_DEGs.csv)
+- [Significant DEGs](results/significant_DEGs.csv)
 
 ---
 
