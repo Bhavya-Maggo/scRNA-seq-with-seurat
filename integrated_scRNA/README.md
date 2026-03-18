@@ -124,8 +124,8 @@ These plots summarize key steps of the Seurat workflow, including quality contro
 
 ### *Quality Control*
 
-![QC Metrics](results/QC_all_samples.pdf)
-
+[QC Metrics](results/QC_all_samples.pdf)
+[View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
 ---
 
 ### *Dimensionality Reduction*
