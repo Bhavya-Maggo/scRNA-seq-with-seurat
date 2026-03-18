@@ -10,18 +10,21 @@ scRNA-seq-with-seurat/
 ├── integrated_scRNA/
 │   └── integrated_scRNA_pipeline.R        
 │   └── README.md                  
-│   └── images/
-│   │   ├── QC_VlnPlot.png
-│   │   ├── nCount_vs_nFeature.png
-│   │   ├── nCount_vs_percentMT.png
-│   │   ├── Elbow_plot.png
-│   │   ├── UMAP_Clusters.png
-│   │   ├── umap_annotated.png
-│   │   ├── featurePlot_markers.png
-│   │   └── marker_expression.png
-│   │
 │   └── results/
-│       └── TopGenes_DimHeatmap_PC1_10.pdf
+│   │   ├── QC_all_samples.pdf
+|   |   ├── heatmap_DEGs_all_celltypes.pdf
+|   |   ├── volcano_all_celltypes.pdf
+│   │   ├── UMAP_condition.png 
+│   │   ├── UMAP_clusters.png
+│   │   ├── covid_vs_healthy.png
+│   │   ├── cell_proportions.png
+|   |   ├── elbow_plot.png          
+│   │   ├── all_markers_per_cluster.csv                                                          
+│   │   ├── significant_DEGs.csv
+|   |   ├── top_markers_per_cluster.csv
+|   |   ├── all_DEGs_COVID_vs_Healthy.csv 
+
+
                     
 
 ```
@@ -30,8 +33,11 @@ scRNA-seq-with-seurat/
 ## Dataset
 
 **Source:** GSE150728 (NCBI GEO)
+<br>
 **Samples:** 13 total — 7 COVID-19 patients + 6 healthy donors
+<br>
 **Download:** https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150728
+<br>
 **Format:** .rds files containing exon/intron/spanning count matrices
 
 
