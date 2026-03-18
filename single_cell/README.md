@@ -5,8 +5,9 @@ A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 1
 ## Project Structure
 
 ```bash
-project/
+scRNA-seq-with-seurat/
 ├── single_cell_seurat.R
+├── README.md
 ├── images/
 │   ├── QC_VlnPlot.png
 │   ├── nCount_vs_nFeature.png
