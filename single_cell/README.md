@@ -96,31 +96,38 @@ library(dplyr)
 
 These plots summarize key steps of the Seurat workflow, including quality control, dimensionality reduction, clustering, and biological interpretation.
 
-* **Quality Control**
+---
 
-![QC Violin Plot](images/QC_VlnPlot.png)
+### **Quality Control**
 
-![nCount vs nFeature](images/nCount_vs_nFeature.png)
+![QC Violin Plot](results/QC_VlnPlot.png)
 
-![nCount vs percent MT](images/nCount_vs_percentMT.png)
+![nCount vs nFeature](results/nCount_vs_nFeature.png)
 
+![nCount vs percent MT](results/nCount_vs_percentMT.png)
 
-* **Dimensionality Reduction**
+---
 
-![Elbow Plot](images/Elbow_plot.png)
+### **Dimensionality Reduction**
 
+![Elbow Plot](results/Elbow_plot.png)
 
-* **Clustering**
+---
 
-![UMAP Clusters](images/UMAP_Clusters.png)
+### **Clustering**
 
-![Annotated UMAP](images/umap_annotated.png)
+![UMAP Clusters](results/UMAP_Clusters.png)
 
+![Annotated UMAP](results/umap_annotated.png)
 
-* **Top Genes (PC1–PC10 Heatmaps)**
+---
+
+### **Top Genes (PC1–PC10 Heatmaps)**
 
 Full heatmaps across principal components are available here:  
 [View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
+
+---
 
 
 ## Author
