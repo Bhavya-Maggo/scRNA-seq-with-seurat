@@ -10,7 +10,7 @@ scRNA-seq-with-seurat/
 ├── single_cell/
 │   └── single_cell_seurat.R        
 │   └── README.md                  
-│   └── images/
+│   └── results/
 │   │   ├── QC_VlnPlot.png
 │   │   ├── nCount_vs_nFeature.png
 │   │   ├── nCount_vs_percentMT.png
@@ -19,10 +19,8 @@ scRNA-seq-with-seurat/
 │   │   ├── umap_annotated.png
 │   │   ├── featurePlot_markers.png
 │   │   └── marker_expression.png
-│   │
-│   └── results/
-│       └── TopGenes_DimHeatmap_PC1_10.pdf
-                    
+│   │   └── TopGenes_DimHeatmap_PC1_10.pdf
+
 
 ```
 
