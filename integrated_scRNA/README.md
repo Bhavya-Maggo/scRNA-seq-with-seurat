@@ -125,7 +125,7 @@ These plots summarize key steps of the Seurat workflow, including quality contro
 ### *Quality Control*
 
 [QC Metrics](results/QC_all_samples.pdf)
-[View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
+
 ---
 
 ### *Dimensionality Reduction*
@@ -167,9 +167,9 @@ Full DEG results:
 
 ### *Visualization of DEGs*
 
-![Volcano Plots](results/volcano_all_celltypes.pdf)
+[Volcano Plots](results/volcano_all_celltypes.pdf)
 
-![Heatmap of Top DEGs](results/heatmap_DEGs_all_celltypes.pdf)
+[Heatmap of Top DEGs](results/heatmap_DEGs_all_celltypes.pdf)
 
 ---
 
