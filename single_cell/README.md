@@ -37,6 +37,27 @@ scRNA-seq-with-seurat/
 **Species:** Human
 
 
+## Requirements
+
+```r
+library(Seurat)
+library(SeuratObject)
+library(tidyverse)
+library(ggplot2)
+library(sctransform)
+library(patchwork)
+library(DoubletFinder)
+library(glmGamPoi)
+library(future)
+library(dplyr)
+
+```
+
+---
+* R version: 4.3+
+* Seurat version: 5.x
+
+
 ## Pipeline Overview
 
 |            Step          |      Tool        |                       Description                                               |
@@ -100,28 +121,6 @@ These plots summarize key steps of the Seurat workflow, including quality contro
 
 Full heatmaps across principal components are available here:  
 [View PDF](results/TopGenes_DimHeatmap_PC1_10.pdf)
-
-
-## Requirements
-
-```r
-library(Seurat)
-library(SeuratObject)
-library(tidyverse)
-library(ggplot2)
-library(sctransform)
-library(patchwork)
-library(DoubletFinder)
-library(glmGamPoi)
-library(future)
-library(dplyr)
-
-```
-
----
-* R version: 4.3+
-* Seurat version: 5.x
-
 
 
 ## Author
