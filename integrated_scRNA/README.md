@@ -13,7 +13,7 @@ scRNA-seq-with-seurat/
 │   └── results/
 │   │   ├── QC_all_samples.pdf
 |   |   ├── volcano_all_celltypes.pdf
-|   |   ├── heatmap_DEGs_all_celltypes.png 
+|   |   ├── heatmap_DEGs.png 
 │   │   ├── UMAP_condition.png 
 │   │   ├── UMAP_clusters.png
 │   │   ├── covid_vs_healthy.png
@@ -169,7 +169,7 @@ Full DEG results:
 
 [Volcano Plots](results/volcano_all_celltypes.pdf)
 
-![Heatmap of Top DEGs](results/heatmap_DEGs_all_celltypes.png)
+![Heatmap_of_Top_DEGs](results/heatmap_DEGs.png)
 
 ---
 
